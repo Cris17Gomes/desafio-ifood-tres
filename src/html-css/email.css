@@ -1,0 +1,49 @@
+/* Apply a background color to the body */
+body {
+    background-color: #030303;
+  }
+  
+  /* Center the container div */
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* Style the h1 */
+  h1 {
+    color: #55f00e;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  /* Style the span inside the h1 */
+  h1 span {
+    color: #007bff;
+  }
+  
+  /* Style the p */
+  p {
+    color: #55f00e;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  /* Style the button */
+  button {
+    font-size: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 30px;
+  }
+  
+  /* Style the button on hover */
+  button:hover {
+    background-color: #0056b3;
+    cursor: pointer;
+  }
+  
