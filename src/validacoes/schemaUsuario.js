@@ -1,8 +1,8 @@
 const joi = require('joi')
 
 const schemaUsuario = joi.object({
-
-    nome: joi.string().min(3).required().regex(/^([A-Z][a-z]+)(\s[A-Z][a-z]+)*$/).messages({
+    
+    nome: joi.string().min(3).pattern(/^[a-zA-ZÀ-ú]+(([',. -][a-zA-ZÀ-ú ])?[a-zA-ZÀ-ú]*)*$/).required().messages({
         'string.pattern.base': 'O nome deve começar com uma letra maiúscula, seguida de letras minúsculas e opcionalmente espaços em branco, seguido de outra letra maiúscula e letras minúsculas',
         'string.min': 'O nome precisa ter no mínimo 3 caracteres',
         'any.required': 'O campo nome é obrigatório',

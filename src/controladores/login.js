@@ -6,7 +6,7 @@ const login = async (req, res) => {
   const { email, senha } = req.body;
 
   if (!email || !senha) {
-    return res.status(400).json({ mensagem: `Erro interno: ${error.message}` });
+    return res.status(400).json({ mensagem: 'erro aqui' });
   }
 
   try {
